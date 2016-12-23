@@ -1,0 +1,4 @@
+applications:
+- name: concourse-ci-demo
+  random-route: true
+  memory: 10M
