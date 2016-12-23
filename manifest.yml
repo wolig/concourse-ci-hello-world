@@ -1,4 +1,5 @@
 applications:
 - name: concourse-ci-demo
   random-route: true
+  buildpack: https://github.com/cloudfoundry/php-buildpack
   memory: 10M
